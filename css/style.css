@@ -1,0 +1,152 @@
+.navbar {
+    color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.image {
+    width: 300px;
+    height: 120px;
+}
+
+.navbar-box {
+    display: flex;
+    margin-right: 150px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+button {
+    background-color: #2b3bb3;
+    color: white;
+    margin: 8px;
+    font-size: 9px;
+    width: 66px;
+    height: 42px;
+    align-items: center;
+}
+
+
+.section {
+    justify-content: center;
+}
+
+.image1 {
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #dddd;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image {
+        width: 150px;
+    }
+
+    .navbar-box {
+        display: flex;
+        margin-left: 154px;
+        margin-top: -113px;
+
+    }
+
+    button {
+        background-color: #2b3bb3;
+        color: white;
+        margin: 8px;
+        font-size: 9px;
+        width: 60px;
+        height: 35px;
+        align-items: center;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    .image1 {
+        width: 92vw;
+        height: 75vh;
+        justify-content: center;
+        margin-top: 62px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image {
+        width: 120px;
+        height: 100px;
+    }
+
+    .navbar-box {
+        display: flex;
+        margin-left: 138px;
+        margin-top: -85px;
+    }
+
+    button {
+        background-color: #2b3bb3;
+        color: white;
+        margin: 6px;
+        font-size: 5px;
+        width: 44px;
+        height: 35px;
+        align-items: center;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    .image1 {
+        width: 92vw;
+        height: 75vh;
+        justify-content: center;
+        margin-top: 62px;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding: 16px
+    }
+}
